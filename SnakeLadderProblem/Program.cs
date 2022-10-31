@@ -12,6 +12,7 @@ namespace SnakeLadderProblem
             gamePlay.DiceRoll();
             gamePlay.CheckingPlayerPosition();
             gamePlay.PlayerPositionZeroRestart();
+            gamePlay.PlayerPositionExact100();
 
         }
     }
