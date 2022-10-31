@@ -14,6 +14,7 @@ namespace SnakeLadderProblem
             gamePlay.PlayerPositionZeroRestart();
             gamePlay.PlayerPositionExact100();
             gamePlay.PositionOfDiceEveryTimePlayed();
+            gamePlay.FinalReportOf2Players();
 
         }
     }
