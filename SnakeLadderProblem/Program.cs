@@ -9,6 +9,7 @@ namespace SnakeLadderProblem
         {
             GamePlays gamePlay = new GamePlays();
             gamePlay.GamePlay();
+            gamePlay.DiceRoll();
 
         }
     }

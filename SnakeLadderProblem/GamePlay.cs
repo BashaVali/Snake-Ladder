@@ -17,10 +17,16 @@ namespace SnakeAndLadderProblem
 
             Console.WriteLine("Game is Start:" + playerPosition);
         }
+        public void DiceRoll()
+        {
+            int playerPos = 0, rollDice;
+            Random random = new Random();
+            rollDice = random.Next(1, 7);
+            Console.WriteLine("Rolled Dice number is:" + rollDice);
 
+        }
     }
 }
-
 
 
 
