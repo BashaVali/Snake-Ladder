@@ -13,6 +13,7 @@ namespace SnakeLadderProblem
             gamePlay.CheckingPlayerPosition();
             gamePlay.PlayerPositionZeroRestart();
             gamePlay.PlayerPositionExact100();
+            gamePlay.PositionOfDiceEveryTimePlayed();
 
         }
     }
